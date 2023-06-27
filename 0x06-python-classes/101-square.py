@@ -110,7 +110,8 @@ class Square:
                     square_str += " "
                 for k in range(self.__size):
                     square_str += "#"
-                square_str += "\n"
+                if i != self.__size - 1:
+                    square_str += "\n"
             return square_str
 
     @property
