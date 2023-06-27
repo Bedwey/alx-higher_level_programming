@@ -100,7 +100,7 @@ class Square:
 
     def __str__(self):
         if self.__size == 0:
-            return "\n"
+            return ""
         else:
             square_str = ""
             for i in range(self.__position[1]):
