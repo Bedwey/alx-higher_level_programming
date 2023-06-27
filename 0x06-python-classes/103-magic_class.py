@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+
+"""Define a MagicClass matching exactly a bytecode."""
+
 import math
 
 
@@ -13,7 +16,7 @@ class MagicClass:
         TypeError: If the radius argument is not a number.
 
     """
-    def __init__(self, radius: float):
+    def __init__(self, radius: 0):
         """Creates a MagicClass instance with the given radius.
 
         Args:
@@ -32,7 +35,7 @@ class MagicClass:
             float: The area of the circle.
 
         """
-        return 2 ** self.__radius * math.pi
+        return (2 ** self.__radius * math.pi)
 
     def circumference(self) -> float:
         """Calculates and returns the circumference of the circle.
@@ -41,4 +44,4 @@ class MagicClass:
             float: The circumference of the circle.
 
         """
-        return 2 * math.pi * self.__radius
+        return (2 * math.pi * self.__radius)
