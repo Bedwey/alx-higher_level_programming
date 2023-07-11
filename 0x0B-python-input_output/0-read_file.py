@@ -5,6 +5,7 @@ Author: Abdullah Bedwey
 Date 11/7/2023
 """
 
+
 def read_file(filename=""):
     """
         read file and print it out
