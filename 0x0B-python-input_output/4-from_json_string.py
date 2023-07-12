@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-import json
-
 """
 Author: Bedwey
 Date: 11/7/2023
 """
+
+
+import json
 
 
 def from_json_string(my_str):
