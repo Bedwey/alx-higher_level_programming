@@ -2,8 +2,7 @@
 import sys
 import urllib.request
 
-url = sys.argv[1]
 
-with urllib.request.urlopen(url) as response:
+with urllib.request.urlopen(sys.argv[1]) as response:
     header = response.info()
     print(header['X-Request-Id'])
